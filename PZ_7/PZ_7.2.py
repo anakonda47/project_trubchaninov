@@ -6,5 +6,5 @@ try:
 
     result = S.replace(S1, S2)
     print(result)
-except ValueError as e:
-    print(e)
+except ValueError:
+    print("Ошибка")

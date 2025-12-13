@@ -22,5 +22,5 @@ try:
     #Вывод разности
     else:
         print("Разность прогрессию: ", d)
-except ValueError as e:
-    print(e)
+except ValueError:
+    print("Ошибка")

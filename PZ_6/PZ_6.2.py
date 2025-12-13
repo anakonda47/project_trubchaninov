@@ -19,5 +19,5 @@ try:
     #Вывод списков
     print("\nИсходный список:  ", a)
     print("\nИтоговый список:  ", b)
-except ValueError as e:
-    print(e)
+except ValueError:
+    print("Ошибка")

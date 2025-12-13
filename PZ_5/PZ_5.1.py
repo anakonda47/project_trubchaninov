@@ -17,5 +17,5 @@ try:
     print("|", b, "|")
     print(main(b))
 
-except ValueError as e:
-    print(e)
+except ValueError:
+    print("Ошибка")

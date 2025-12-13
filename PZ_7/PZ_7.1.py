@@ -16,5 +16,5 @@ try:
             result -= num
 
     print(result)
-except ValueError as e:
-    print(e)
+except ValueError:
+    print("Ошибка")

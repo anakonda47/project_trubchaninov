@@ -23,5 +23,5 @@ try:
                 res_x, res_y = x[i], y[i]
     #Вывод точки
     print("Ближайшие точки: ", res_x, res_y)
-except ValueError as e:
-    print(e)
+except ValueError:
+    print("Ошибка")

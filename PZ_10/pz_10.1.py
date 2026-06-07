@@ -27,7 +27,7 @@ try:
     mult_even = 1
     for i in even_elements:
         mult_even *= i
-    if not even_elements:  # на случай если четных нет
+    if not even_elements:  
         mult_even = 0
         
   

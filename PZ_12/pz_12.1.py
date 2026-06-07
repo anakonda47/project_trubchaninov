@@ -1,4 +1,4 @@
-1. В матрице найти максимальный положительный элемент, кратный 4."""
+# В матрице найти максимальный положительный элемент, кратный 4."""
 
 import random
 
@@ -11,7 +11,7 @@ def main():
         for row in matrix:
             print(row)
             
-        # поиск максимального числа, большего 0 и кратного 4
+    
         valid_elements = [val for row in matrix for val in row if val > 0 and val % 4 == 0]
         result = max(valid_elements) if valid_elements else None
         

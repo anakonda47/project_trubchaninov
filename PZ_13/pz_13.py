@@ -17,7 +17,7 @@ def main():
 
         for line in lines:
             
-            if "Зарезервированные адреса" in line:
+            if in line:
                 in_section = True
                 continue
             

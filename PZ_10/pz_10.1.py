@@ -14,7 +14,7 @@
 Сумма нечетных элементов:"""
 
 try:
-    # --- ОБРАБОТКА ПЕРВОГО ФАЙЛА ---
+   
     list = []
     with open("text1.txt", "r", encoding="utf-8") as f:
         for i in f.read().split(","):
@@ -41,7 +41,7 @@ try:
                 f"Минимальный элемент: {min_element}\n\n")
 
 
-    # --- ОБРАБОТКА ВТОРОГО ФАЙЛА ---
+    
     list = []  
     with open("text2.txt", "r", encoding="utf-8") as f:
         for i in f.read().split(","):
